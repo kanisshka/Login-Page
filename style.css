@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 1vh;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black ;
+}
+.container{
+    background-position: center;
+    background-size: cover;
+    margin: 1vh;
+    padding: 1vh;
+    height: 350px;
+    width: 755px;
+    text-align:center;
+    display: inline-flexbox; 
+    background-color: rgba(17, 18, 19, 0.279);
+    border-radius: 5px;
+}
+ 
+#con{
+    background-color: rgba(244, 245, 245,0.888 );
+    font-style: italic;
+    font-family: cursive;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: groove;
+    border-width: 2px;
+    text-align: center;
+    margin: 0px 100px 0px 100px ;
+    padding: 20px;
+}
+/* .multi-bg-example {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://i0.wp.com/rebootsocial.com/wp-content/uploads/2017/11/Bubbles.png?fit=800%2C533&ssl=1'),
+        url('https://www.logodesign.net/images/illustration-logo.png'),
+        linear-gradient(to right, rgb(39, 137, 223), rgba(177, 199, 183, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+  } */
+
+#btn{
+    border-width: 1px;
+    border-style: double;
+    border-color: black;
+    background-color: chocolate;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+}
+h2{
+    font-size: xx-large;
+}
+input[type="text"]
+{
+    width:310px;
+    height:20px;
+    border-radius: 65px;
+    background-color: rgba(17, 18, 19, 0.279);
+    -webkit-text-fill-color: rgb(221, 218, 215);
+    text-align: center;
+}
+input[type="text"]:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
